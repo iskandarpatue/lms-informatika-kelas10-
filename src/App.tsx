@@ -3,7 +3,7 @@ import { initializeApp, getApps } from 'firebase/app';
 import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'firebase/auth';
 import { getFirestore, doc, setDoc, collection, onSnapshot } from 'firebase/firestore';
 
-import {  
+import { 
   BookOpen, Gamepad2, HelpCircle, HeartHandshake, Award, Flame, 
   CheckCircle, ChevronRight, Play, RefreshCw, Sparkles, ArrowRight, 
   BarChart2, Cpu, Database, Search, Share2, Layers, Code, ShieldCheck, 
